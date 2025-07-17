@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('images/rodelsa-hall.png');
+	background-size: cover;
+	background-position: center;
+	filter: blur(8px);
+	z-index: -1;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.login-box {
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	border-radius: 12px;
+	padding: 40px 30px;
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+	color: #efefef;
+	margin-bottom: 30px;
+	font-size: 26px;
+	text-shadow: 0 0 2px #b9b9b9, 0 0 2px #d5d5d5, 0 0 2px #a6a6a6;
+}
+
+.login-btn {
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	padding: 12px;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	background: #3498db;
+	color: white;
+}
+
+.login-btn:hover {
+	background: #2980b9;
+}
+
+/* 📱 Responsive tweaks for mobile screens */
+@media (max-width: 480px) {
+	.login-box {
+		padding: 30px 20px;
+	}
+	
+	.login-box h2 {
+		font-size: 20px;
+	}
+
+	.login-btn {
+		padding: 10px;
+		font-size: 15px;
+	}
+}
