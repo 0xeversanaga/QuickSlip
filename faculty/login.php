@@ -9,11 +9,13 @@
 <body>
 	<div class="container">
 		<div class="login-box">
-			<button class="back-btn" onclick="location.href='../index.html'">⮜ Back</button>
+			<button class="back-btn" onclick="location.href='../index.html'">< Back</button>
 			<h2>Faculty Login</h2>
 			<form action="authenticate.php" method="POST">
-				<input type="text" name="faculty_id" placeholder="Faculty ID" required class="input-field">
-				<input type="password" name="password" placeholder="Password" required class="input-field">
+				<label for="username">Username:</label>
+				<input type="text" name="faculty_id" placeholder="Enter Faculty ID" required class="input-field">
+				<label for="password">Password:</label>
+				<input type="password" name="password" placeholder="Enter Password" required class="input-field">
 				<button type="submit" class="login-btn">Log In</button>
 			</form>
 			<p class="link-text"><a href="#">Forgot Password?</a></p>
