@@ -33,6 +33,7 @@ body::before {
 }
 
 .login-box {
+	position: relative;
 	background: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(10px);
 	border-radius: 12px;
@@ -45,7 +46,7 @@ body::before {
 
 .login-box h2 {
 	color: #efefef;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	font-size: 26px;
 	text-shadow: 0 0 2px #b9b9b9, 0 0 2px #d5d5d5, 0 0 2px #a6a6a6;
 }
@@ -82,4 +83,50 @@ body::before {
 		padding: 10px;
 		font-size: 15px;
 	}
+}
+
+.input-field {
+	width: 100%;
+	padding: 12px;
+	margin: 5px 0;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.input-field:focus {
+	outline: none;
+	box-shadow: 0 0 5px #3498db;
+}
+
+.link-text {
+	margin-top: 15px;
+}
+
+.link-text a {
+	color: #ecf0f1;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.link-text a:hover {
+	text-decoration: underline;
+}
+
+.back-btn {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: transparent;
+	color: #ffffff;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	text-shadow: 0 0 2px rgba(0,0,0,0.5);
+	transition: 0.2s ease;
+}
+
+.back-btn:hover {
+	color: #ddd;
 }
