@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickSlip Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="branding">
+                <h1>QuickSlip</h1>
+                <h2>Automated Offense Slip System for PDSA in Liceo De Cagayan University</h2>
+		<br></br>
+		<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+		<br></br>
+		<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+            </div>
+            <div class="image-overlay"></div>
+            <img src="images/rodelsa-hall.jpg" alt="Liceo Campus" class="campus-image">
+        </div>
+
+        <div class="right-section">
+            <div id="role-selection" class="login-container">
+                <h3>LOGIN AS</h3>
+                <button onclick="showLoginForm('admin')">ADMIN</button>
+                <button onclick="showLoginForm('faculty')">FACULTY</button>
+                <button onclick="showLoginForm('student')">STUDENT</button>
+                <p class="register-link">Need an account? <a href="#">Register here</a></p>
+            </div>
+
+            <div id="login-form" class="login-container hidden">
+                <h3 id="form-title">ADMIN LOGIN</h3>
+                <form>
+                    <input type="email" placeholder="Email (@liceo.edu.ph)" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="login-btn">Login</button>
+                    <button type="button" onclick="hideLoginForm()" class="back-btn">← Back</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
