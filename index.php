@@ -50,9 +50,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h1>QuickSlip</h1>
                 <h2>Automated Offense Slip System for PDSA in Liceo De Cagayan University</h2>
                 <br><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+                <p>The research aims to develop "QuickSlip" an automated web and mobile application system, to digitize the distribution of offense slips and community service slips at Liceo De Cagayan University, replacing manual processes that cause delays, overcrowding, and academic disruptions.</p>
                 <br><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+                <p>The study was initiated to resolve inefficiencies in the current Prefect of Discipline and Student Affairs (PDSA) office workflow, where students waste class time waiting for physical slips, faculty face administrative burdens, and the manual system hinders transparency and timely disciplinary actions.</p>
             </div>
             <div class="image-overlay"></div>
             <img src="images/rodelsa-hall.jpg" alt="Liceo Campus" class="campus-image">

@@ -19,3 +19,6 @@ __Automated Offense Slip System for PDSA in Liceo De Cagayan University__
     * PDSA: List of reports (faculty & students), record & verify reports, issue community service slips. 
 * Relax.
 
+## Progress:
+
+![Progress for 08-01-2025](/images/progress-08-01-2025.png "Progress for 08-01-2025")
