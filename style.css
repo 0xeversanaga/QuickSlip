@@ -150,7 +150,7 @@ button {
 }
 
 #role-selection button:hover {
-    background: #d4af37;
+    background: #ffd700;
 }
 
 .login-btn {
@@ -159,7 +159,7 @@ button {
 }
 
 .login-btn:hover {
-    background: #27ae60;
+    background: #ffd700;
 }
 
 .back-btn {
