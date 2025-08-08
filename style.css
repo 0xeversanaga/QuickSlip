@@ -33,12 +33,12 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    left: 70%; /* Matches the 70/30 split */
+    left: 70%;
     height: 100%;
     width: 4px;
     background: linear-gradient(to bottom, 
-        #FFD700, /* Gold */
-        #D4AF37, /* Metallic gold */
+        #FFD700,
+        #D4AF37,
         #FFD700);
     z-index: 10;
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
@@ -121,6 +121,9 @@ body {
 }
 
 .login-container {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
+    transform: translateY(0);
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -162,6 +165,38 @@ button {
     background: #ffd700;
 }
 
+.login-container {
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.login-container.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    position: absolute;
+    width: calc(100% - 4rem); /* Match your container padding */
+}
+        
+.right-section {
+    position: relative;
+    min-height: 400px; /* Ensure enough height for transitions */
+}
+
+#role-selection button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#role-selection button:hover {
+    transform: translateY(-2px);
+}
+   
+#role-selection, #login-form {
+     backface-visibility: hidden;
+     will-change: transform, opacity;
+}
+
 .back-btn {
     background: var(--danger-color);
     color: var(--text-light);
@@ -178,6 +213,15 @@ input {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
+}
+.error-message {
+    color: #e74c3c;
+    background: #fadbd8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: <?= $error ? 'block' : 'none' ?>;
 }
 
 .register-link {

@@ -9,6 +9,9 @@ __Automated Offense Slip System for PDSA in Liceo De Cagayan University__
 
 **Motivation**: The study was initiated to resolve inefficiencies in the current Prefect of Discipline and Student Affairs (PDSA) office workflow, where students waste class time waiting for physical slips, faculty face administrative burdens, and the manual system hinders transparency and timely disciplinary actions.
 
+## ON-GOING:
+* Account registration and user dashboards.
+
 ## TODO:
 
 * Design the dashboard for each users.
@@ -19,6 +22,12 @@ __Automated Offense Slip System for PDSA in Liceo De Cagayan University__
     * PDSA: List of reports (faculty & students), record & verify reports, issue community service slips. 
 * Relax.
 
-## Progress:
+## Progress: 08-01-2025
 
-![Progress for 08-01-2025](/images/progress-08-01-2025.png "Progress for 08-01-2025")
+![Progress for 08-01-2025](/images/progress-08-01-2025.png)
+
+## Progress: 08-08-2025
+
+![Progress for 08-09-2025](/images/progress-08-09-2025-1.png)
+
+![Progress for 08-09-2025](/images/progress-08-09-2025-2.png)
